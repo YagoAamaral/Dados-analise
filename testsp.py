@@ -14,6 +14,7 @@ def test_ping():
     
     if response == 0:
         print("Conexão ativa com sucesso!")
+        print("finalizando testes")
     else:
         print("Não foi possível se conectar ao site.")
 

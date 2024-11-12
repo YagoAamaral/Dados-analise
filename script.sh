@@ -38,6 +38,7 @@ while [ "$cont" -eq 0 ]; do
             lsof -i -P -n
             ;;
         2)
+            echo "essa parte ainda está em desenvolvimento, pode apresentar erros"
             echo "Lembre-se, a integridade é um pilar fundamental:"
             read -p "Digite o domínio: " dominio
             echo "Domínio: $dominio"
@@ -70,7 +71,7 @@ while [ "$cont" -eq 0 ]; do
             ;;
         5)
             echo "Saindo..."
-            cont=1  # Define cont para 1 para sair do loop
+            cont=1 
             ;;
         *)
             echo "Opção inválida!"
