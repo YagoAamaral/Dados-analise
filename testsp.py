@@ -1,5 +1,6 @@
 import os
 import platform
+from terminal_manu.common import Menu
 
 def test_ping():
     

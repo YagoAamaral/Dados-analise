@@ -13,6 +13,7 @@ fuc_sys() {
 }
 
 echo "Fazendo vários testes, aguarde... ;)"
+echo " Direcionando você para o aplicativo"
 ping -c 4 google.com >/dev/null 2>&1
 
 func_roda
